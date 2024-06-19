@@ -10,3 +10,11 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+
+
+const hamburgerMenu = document.getElementById("hamburger");
+hamburgerMenu.addEventListener("click", () => { 
+    console.log("clicked");
+    document.getElementById("menu").classList.toggle('show-menu');
+    document.getElementById("nav-bar").classList.toggle('nav-bar-resp');
+});

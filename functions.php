@@ -33,11 +33,23 @@ function blackhole_menus() {
 
 add_action('init', 'blackhole_menus');
 
+function blackhole_scripts() {
+    wp_enqueue_script('blackhole-js', get_template_directory_uri()."/assets/js/script.js", array(), "1.0", false);
+}
+
+add_action('wp_enqueue_scripts', 'blackhole_scripts');
+
+function add_defer_attribute($tag, $handle) {
+    if ($handle === 'blackhole-js') {
+        $tag = str_replace(' src', ' defer src', $tag);
+    }
+    return $tag;
+}
+add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
+
 function blackhole_styles() {
     $css_version = filemtime(get_template_directory()."/style.css");
-    // $para_css_version = filemtime(get_template_directory()."assets/css/style.css");
     wp_enqueue_style("blackhole-css", get_template_directory_uri()."/style.css", array('blackhole-fonts-gapis', 'blackhole-fonts-gstatic', 'blackhole-font-name'), $css_version, "all");
-    wp_enqueue_style("blackhole-paragraph-styles", get_template_directory_uri()."assets/css/paragraph-styles.css", array(), "2.0", "all");
     wp_enqueue_style("blackhole-fonts-gapis", "https://fonts.googleapis.com", false);
     wp_enqueue_style("blackhole-fonts-gstatic", "https://fonts.gstatic.com", false);
     wp_enqueue_style("blackhole-font-name", "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap", false);

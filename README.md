@@ -1,2 +1,3 @@
-# blackhole
-A dark minimalistic and beautiful WordPress theme
+# Blackhole
+A dark minimalistic WordPress theme
+

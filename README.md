@@ -13,7 +13,7 @@ A dark minimalistic and beautiful WordPress theme
 - Element design support (Default wordpress elements are styled automatically according to the theme)
 
 ### Steps to use
-1. Download the .ZIP file from "https://github.com/intelkid7/Blackhole/" (Code -> Download .ZIP)
+1. Download the .ZIP file from https://github.com/intelkid7/Blackhole/ (Code -> Download .ZIP)
 2. Open WordPress
 3. Go to Appearance -> Themes
 4. Click on "Add New Theme"
@@ -26,5 +26,5 @@ A dark minimalistic and beautiful WordPress theme
 12. Enter content like images, buttons, headings, paragraphs and so much more!
 13. You can also use other plugins with the theme.
     - NOTE: The styles in other plugins will remain the same and cannot be edited by the theme
-    - However, in the case of forms you can use yForms [https://github.com/intelkid7/yForms]
+    - However, in the case of forms you can use yForms from https://github.com/intelkid7/yForms
 14. That's it! Sit back and create stunning websites without writing a single line of code

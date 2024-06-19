@@ -736,6 +736,23 @@ figure img {
     background-color: #262626;
 }
 
+.not-found {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.not-found img {
+    display: flex;
+    width: 100%;
+    
+}
+
+
+
 @media only screen and (max-width: 800px) {
 
     button {
@@ -811,6 +828,14 @@ figure img {
         margin: 0;
         padding: 0;
     }
+
+    .not-found {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 100vh
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -821,5 +846,13 @@ figure img {
     .logo {
         display: flex;
         width: 100%;
+    }
+
+    .not-found {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 100vh
     }
 }

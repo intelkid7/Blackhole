@@ -28,3 +28,16 @@ A dark minimalistic and beautiful WordPress theme
     - NOTE: The styles in other plugins will remain the same and cannot be edited by the theme
     - However, in the case of forms you can use yForms from https://github.com/intelkid7/yForms
 14. That's it! Sit back and create stunning websites without writing a single line of code
+
+### Steps to use the theme without a Creator Plan
+##### NOTE: This tutorial assumes that you have WordPress installed in your local environment
+1. Clone the repository in your the folder you have your WordPress installation under "wp-content/themes/"
+```
+git clone https://github.com/intelkid7/Blackhole.git
+```
+2. Open the repository folder inside a code editor (Example: Visual Studio Code)
+3. Open WordPress admin dashboard
+4. Go to Appearance -> Themes
+5. You will be able to see the theme there
+6. That's it! Now you can use & customize the theme the way you want
+

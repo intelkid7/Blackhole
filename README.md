@@ -31,6 +31,7 @@ A dark minimalistic and beautiful WordPress theme
 
 ### Steps to use the theme without a Creator Plan
 ##### NOTE: This tutorial assumes that you have WordPress installed in your local environment
+##### To setup WordPress locally, follow this link - [https://youtu.be/um8BtHFNJBA?si=Oi_xY1zywwz55Num]
 1. Clone the repository in your the folder you have your WordPress installation under "wp-content/themes/"
 ```
 git clone https://github.com/intelkid7/Blackhole.git

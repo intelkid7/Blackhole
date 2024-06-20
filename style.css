@@ -43,11 +43,6 @@ input {
     border-radius: 1rem;
 }
 
-input[type="submit"] {
-    display: flex;
-    width: 50%;
-}
-
 code {
     border: 0.058rem #474747 solid;
     padding: 1.3rem;
@@ -55,10 +50,38 @@ code {
     background-color: #262626;
 }
 
-form {
+.y-forms-block {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
 
+form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: #0D0D0D;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 0.058rem solid #474747;
+    border-radius: 2rem;
+}
+
+form input {
+    width: 70%;
+}
+
+input[type="submit"] {
+    width: 40%;
+    padding: 0.8rem;
+    font-family: 'Inter', sans-serif;
+}
+
+form button {
+    width: 20%;
 }
 
 button {
@@ -770,6 +793,29 @@ figure img {
         margin-top: 20%;
     }
 
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+        background-color: #0D0D0D;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: 0.058rem solid #474747;
+        border-radius: 2rem;
+    }
+
+    form input {
+        width: 60%;
+    }
+
+    input[type="submit"] {
+        width: 30%;
+        padding: 0.8rem;
+        font-family: 'Inter', sans-serif;
+    }
+
     .nav-div {
         display: flex;
         margin-bottom: 2rem;
@@ -854,5 +900,28 @@ figure img {
         align-items: center;
         justify-content: center;
         height: 100vh
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+        background-color: #0D0D0D;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: 0.058rem solid #474747;
+        border-radius: 2rem;
+    }
+
+    form input {
+        width: 70%;
+    }
+
+    input[type="submit"] {
+        width: 40%;
+        padding: 0.8rem;
+        font-family: 'Inter', sans-serif;
     }
 }

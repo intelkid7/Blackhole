@@ -34,7 +34,7 @@ function blackhole_menus() {
 add_action('init', 'blackhole_menus');
 
 function blackhole_scripts() {
-    wp_enqueue_script('blackhole-js', get_template_directory_uri()."/assets/js/script.js", array(), "1.0", false);
+    wp_enqueue_script('blackhole-js', get_template_directory_uri()."/assets/js/script.js", array(), "2.0", false);
 }
 
 add_action('wp_enqueue_scripts', 'blackhole_scripts');

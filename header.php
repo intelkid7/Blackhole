@@ -8,11 +8,6 @@
     <?php
     wp_head();
     ?>
-    <!-- <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" /> -->
-    <!-- <script defer src="wp-content/themes/black-hole/assets/js/script.js"></script> -->
 </head>
 
 <body>
@@ -38,18 +33,7 @@
                         )
                     );
                 ?>
-                <!-- <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#about">FAQs</a></li>
-                    <li class="menu-store">
-                        <span><a href="#about">Store</a></span>
-                    </li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul> -->
             </div>
-            <button id="hamburger" class="hamburger">hamburger</button>
+            <button id="hamburger" class="hamburger">menu</button>
         </nav>
     </div>

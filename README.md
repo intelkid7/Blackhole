@@ -3,7 +3,7 @@ A dark minimalistic and beautiful WordPress theme
 
 - Date created: 12 Nov 2023
 - Updated: 19 June 2024
-- Current Version: 2.0
+- Current Version: 2.1
 - Author: Priyansh JS. Yadav
 
 ### What's New?
